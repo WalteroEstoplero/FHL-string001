@@ -1,0 +1,7 @@
+C:\Users\walte\source\repos\FHL-string001\FHL-string001\bin\Debug\FHL-string001.exe.config
+C:\Users\walte\source\repos\FHL-string001\FHL-string001\bin\Debug\FHL-string001.exe
+C:\Users\walte\source\repos\FHL-string001\FHL-string001\bin\Debug\FHL-string001.pdb
+C:\Users\walte\source\repos\FHL-string001\FHL-string001\obj\Debug\FHL-string001.csprojAssemblyReference.cache
+C:\Users\walte\source\repos\FHL-string001\FHL-string001\obj\Debug\FHL-string001.csproj.CoreCompileInputs.cache
+C:\Users\walte\source\repos\FHL-string001\FHL-string001\obj\Debug\FHL-string001.exe
+C:\Users\walte\source\repos\FHL-string001\FHL-string001\obj\Debug\FHL-string001.pdb
