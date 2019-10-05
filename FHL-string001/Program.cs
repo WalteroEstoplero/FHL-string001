@@ -23,8 +23,26 @@ namespace FHL_string001
             string gesamtstring = hello + name;
             Console.WriteLine(gesamtstring);
 
+            string sterne = new string('*', 15);
+            Console.WriteLine(sterne);
+
+//            int X = 5;
+//            string s10 = new string(X, 10);
+//            Console.WriteLine(s10);
+
+
             string gesamtG = gesamtstring.ToUpper();
             Console.WriteLine(gesamtG);
+
+            string gesamt_string = "Hier ist ein anderer Text versteckt";
+            if (gesamt_string.Contains("versteckt") == true)
+            {
+                Console.WriteLine("Teilstring gefunden !");
+            }
+            else
+            {
+                Console.WriteLine("Teilstring nicht gefunden !");
+            }
 
             gesamtG.Replace("MICHAEL", "Otto");
             Console.WriteLine(gesamtG);
@@ -70,6 +88,27 @@ namespace FHL_string001
             int temperatur = 20;
             string temp_s = temperatur.ToString();
 
+
+            string notiz = "Viele Berge sind heute hinter vielen Wolken versteckt.";
+            // Remove a substring from the middle of the string.
+            string such = "vielen ";
+            // string result = "";
+            // is the same:
+            // string result = string.Empty;
+            string result = null;
+            // int len = result.Length;
+            // Console.WriteLine("result hat die Länge " + len);
+            int i = notiz.IndexOf(such);
+            if (i >= 0)
+            {
+                result = notiz.Remove(i, such.Length);
+            }
+            else
+            {
+                result = notiz;
+            }
+            Console.WriteLine(notiz);
+            Console.WriteLine(result);
 
 
             /*
